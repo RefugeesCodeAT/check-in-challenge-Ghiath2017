@@ -161,16 +161,6 @@ void display_participants()
 
     printf("display\n");
     PARTICIPANT * current_participant = first_participant;
-
-    /*
-    if (first_participant == NULL)
-    {
-            printf("Name: %s \n", first_participant->name);
-            printf("Status: %i \n", first_participant->checked_in);
-            return;
-    }*/
-
-
     while(current_participant != NULL)
     {
             printf("Name: %s \n", current_participant->name);
